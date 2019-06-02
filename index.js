@@ -1,8 +1,20 @@
 // Code your solution in this file!
-function distanceFromInBlocks(value) {
-
+function distanceFromHqInBlocks(street) {
+  if (street >= 42) {
+    return street - 42; 
+  } else {
+    return 42 - street; 
+  };
 };
 
-function distanceFromHqInFeet(value) {
-  distanceFromHqInBlocks(value);
+function distanceFromHqInFeet(street) {
+  return (distanceFromHqInBlocks(street) = 264)
+};
+
+function distanceTravelledInFeet(feet) {
+  
+};
+
+function calculatesFarePrice(value) {
+  
 };
